@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Criterios de prioridad entre documentos</title>
+<meta name="description" content="Orden de prioridad aplicado para eliminar contradicciones: protocolos internos del Hospital Clínic, guía de Farmacia Hospitalaria y resto de documentos.">
+<style>
+:root{--ink:#1d2433;--muted:#5b6475;--line:#dde2ea;--accent:#0b5c8a;--bg:#fbfcfd}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:980px;margin:0 auto;padding:28px 20px 80px}
+nav.crumb{font-size:.85rem;margin-bottom:1em}
+h1{font-size:1.55rem;line-height:1.25;margin:0 0 .4em}
+h2{font-size:1.2rem;margin:2em 0 .4em;padding-top:.5em;border-top:2px solid var(--accent);color:var(--accent)}
+h3{font-size:1.02rem;margin:1.4em 0 .3em}
+.meta{color:var(--muted);font-size:.88rem}
+.notice{border-left:4px solid var(--accent);background:#fff;padding:.7em 1em;margin:1em 0;font-size:.92rem}
+.warn{border-left-color:#b45309;background:#fffbeb}
+table{border-collapse:collapse;width:100%;margin:.6em 0 1em;background:#fff;font-size:.92rem}
+th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+th{background:#eef3f8}
+caption{caption-side:top;text-align:left;font-weight:600;padding:4px 0}
+article{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0}
+dl{display:grid;grid-template-columns:minmax(150px,220px) 1fr;gap:6px 16px;margin:.4em 0 0}
+dt{font-weight:600;color:var(--muted);font-size:.88rem}
+dd{margin:0}
+a{color:var(--accent)}
+.note{font-size:.88rem;color:var(--muted)}
+@media(max-width:640px){dl{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<nav class="crumb"><a href="index.html">← Índice de documentos</a></nav>
+<h1>Criterios de prioridad entre documentos</h1>
+<p>Los documentos de esta web se han revisado para que no contengan recomendaciones contradictorias. Cuando dos documentos decían cosas distintas sobre el mismo fármaco o situación, se ha aplicado este orden de prioridad y la recomendación del documento de menor prioridad se ha sustituido por una remisión al documento que prevalece.</p>
+
+<h2 id="orden">Orden de prioridad</h2>
+<ol>
+<li><strong>Protocolos internos del Hospital Clínic de Barcelona:</strong>
+<ul>
+<li><a href="protocolo-glp1.html">Manejo preoperatorio de análogos GLP-1</a> (2026).</li>
+<li><a href="protocolo-antitromboticos.html">Maneig perioperatori del tractament antitrombòtic</a> (2017).</li>
+</ul></li>
+<li><strong><a href="manejo-perioperatorio.html">Guía de Farmacia Hospitalaria (SEFH), tablas S1–S12</a>.</strong> Prevalece también sobre el <a href="protocolo-diabetes-clinic-2010.html">protocolo de diabetes del Hospital Clínic de 2010</a>, por ser este último anterior.</li>
+<li><strong>Resto de documentos:</strong> <a href="protocolo-diabetes-clinic-2010.html">protocolo de diabetes del Hospital Clínic (2010)</a>, <a href="maneig-medicacio-habitual.html">Maneig de medicació en el període perioperatori</a>, <a href="antidiabeticos-suspension.html">PNT del Hospital de Valdecilla</a> y <a href="antirreumaticos-acr-2022.html">guía ACR/AAHKS 2022</a>.</li>
+</ol>
+
+<h2 id="excepciones">Excepciones acordadas</h2>
+<ul>
+<li><strong>LES no grave y artroplastia total de cadera o rodilla:</strong> para micofenolato, azatioprina, ciclosporina y tacrolimus prevalece la <a href="antirreumaticos-acr-2022.html">guía ACR/AAHKS 2022</a> (suspender 1 semana antes y reiniciar según su criterio) sobre la guía de Farmacia Hospitalaria.</li>
+</ul>
+
+<h2 id="como-leer">Cómo leer las páginas adaptadas</h2>
+<ul>
+<li>Las páginas que se han modificado lo indican al principio con el aviso «Versión adaptada para eliminar contradicciones».</li>
+<li>Donde aparece «ver… (documento prioritario)», la recomendación válida es la del documento enlazado.</li>
+<li>Lo que no se ha sustituido no contradice a ningún documento de mayor prioridad y puede usarse tal como está.</li>
+<li>Las <a href="guias-externas.html">referencias externas</a> (consenso antitrombótico 2018 y guía práctica de Granada 2019) se citan solo como bibliografía; sus recomendaciones no se reproducen en esta web.</li>
+</ul>
+
+</main>
+</body>
+</html>
